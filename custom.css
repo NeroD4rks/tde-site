@@ -1,0 +1,109 @@
+html,body{height: 100%;}
+
+.bloco{min-height: 100%; padding-top:94px;}
+
+.blue-color {background-color: #7e0000;}
+
+.home {animation: mudarbg 20s infinite; background-image: url("back2.jpg"); background-repeat: no-repeat; background-size: cover;}
+
+@keyframes mudarbg {
+    40% {background-image: url("back2.jpg");}
+    80% {background-image: url("back1.jpg")}
+}
+
+.banner h2{font-size: 2.5rem; font-weight: 900; text-transform: uppercase;}
+.banner p {font-size: 1.2rem; line-height: 1.8rem;}
+
+
+.logo_text{font-size: 0;margin: 0;}
+.logo_img{width: 100px; margin-top: 15px;}
+
+
+.navbar {background-color: transparent; transition: background  0.5s linear;}
+.navbar ul a:hover{background-color: transparent; color: #c00000}
+.nav-color {background-color: rgba(0,0,0,0.7);transition: background  0.5s linear;}
+
+nav {
+    color: #fff;
+    background-color: #ee6e73;
+    width: 100%;
+    height: 94px;
+    line-height: 94px;
+  }
+
+nav.nav-extended .nav-wrapper {
+    min-height: 94px;
+    height: auto;
+  }
+
+.navbar-fixed {
+    position: absolute;
+    height: 94px;
+    z-index: 997;
+  }
+
+  nav i,
+  nav [class^="mdi-"], nav [class*="mdi-"],
+  nav i.material-icons {
+    display: block;
+    font-size: 24px;
+    height: 94px;
+    line-height: 94px;
+  }
+
+
+  .sidenav {
+    background-color: rgba(0,0,0,0);
+    background: url("textura2.png");
+    
+}
+.sidenav li>a{color: #fff; font-weight: 100;}
+
+
+.raciocinio {background-image: url("textura1.png");}
+.raciocinio h2{font-size: 2rem; color: #212121; text-transform: uppercase;}
+.raciocinio h2::after {content: ""; display: block; width: 100px; border-top: 1px solid #7e0000; margin: 15px auto;}
+.raciocinio p{line-height: 1.8rem; text-align: justify;}
+.raciocinio .projetos {padding: 20px 0; margin-top: 35px;}
+.raciocinio .projetos .icon{color: #fff;}
+.raciocinio .projetos h3{font-size:1.5rem; color: #fff; text-transform: uppercase;}
+.raciocinio .projetos p{color: #fff;text-align: center;}
+
+.experiencia{background-image: url("textura2.png");}
+.experiencia h2{font-size: 2rem; color: #fff; text-transform: uppercase;}
+.experiencia h2::after {content: ""; display: block; width: 100px; border-top: 1px solid #7e0000; margin: 15px auto;}
+.experiencia p{color: #fff; line-height: 1.8rem;}
+.experiencia .btn-horario{padding-bottom: 20px;}
+
+
+
+.modelagem {background-image: url("back1.jpg");background-repeat: no-repeat;background-size: cover; background-attachment: fixed;}
+.modelagem h2{font-size: 2rem; color: #fff; text-transform: uppercase;}
+.modelagem h2::after {content: ""; display: block; width: 100px; border-top: 1px solid #7e0000; margin: 15px auto;}
+.modelagem p{color: #fff; line-height: 1.8rem;}
+
+.card-content p{color:#212121}
+
+
+.row{margin-bottom: 0;}
+
+.tabs{ background-color: #222;}
+.tabs .tab a{color: #fff;}
+.tabs .tab a:hover, .tabs .tab a.active{color: #7e0000;}
+.tabs .indicator{background-color: #7e0000;}
+
+@media only screen and (max-width: 480px) {
+  .card-image-horizontal{display: none;}
+}
+
+@media only screen and (min-width: 601px) {
+    .banner {padding-top: 4.5rem;}
+    .banner h2 {font-size: 4rem}
+    .container{width: 85%;}
+  }
+  
+  @media only screen and (min-width: 993px) {
+    .banner {padding-top: 5rem;}
+    .banner h2 {font-size: 5rem}
+    .container{width: 90%;}
+  }
